@@ -41,17 +41,6 @@ python news_scraper_v2.py
 
 Enter a keyword when prompted (e.g., "technology", "climate change") and specify the maximum number of articles per source.
 
-## Programmatic Usage
-
-```python
-from news_scraper_v2 import NewsScraperV2
-
-scraper = NewsScraperV2()
-articles = scraper.search_rss_feeds('artificial intelligence', max_articles_per_source=5)
-scraper.display_results(articles)
-scraper.save_to_json(articles, 'ai_articles.json')
-```
-
 ## Output Structure
 
 Each article contains:
