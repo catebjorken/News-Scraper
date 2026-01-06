@@ -1,0 +1,7 @@
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+lxml_html_clean
+newspaper3k==0.2.8
+python-dateutil==2.8.2
+nltk>=3.8
